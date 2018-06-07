@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!--Search view Ward-->
+        <record id="view_res_country_ward_seach" model="ir.ui.view">
+            <field name="name">view.res.country.ward.seach</field>
+            <field name="model">res.country.ward</field>
+            <field name="arch" type="xml">
+                <search string="Search Ward">
+                    <group string="Group by...">
+                    </group>
+                    <group string="Filter">
+                    </group>
+                    <field name="name" string="Ward"
+                               filter_domain="['|',('name', 'ilike', self),('code', 'ilike', self)]"/>
+                </search>
+            </field>
+        </record>
+
+        <!--Tree view Ward-->
+        <record id="view_res_country_ward_tree" model="ir.ui.view">
+            <field name="name">view.res.country.ward.tree</field>
+            <field name="model">res.country.ward</field>
+            <field name="arch" type="xml">
+                <tree string="Ward">
+                    <field name="name"/>
+                    <field name="code"/>
+                    <field name="active"/>
+                </tree>
+            </field>
+        </record>
+
+        <!--Form view Ward-->
+        <record id="view_res_country_ward_form" model="ir.ui.view">
+            <field name="name">view.res.country.ward.form</field>
+            <field name="model">res.country.ward</field>
+            <field name="arch" type="xml">
+                <form string="Ward" version="7.0">
+                    <sheet>
+                        <div class="oe_title">
+                            <label for="name" class="oe_edit_only"/>
+                            <h1><field name="name"/></h1>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="code"/>
+                                <field name="district_id"/>
+                            </group>
+                            <group>
+                                <field name="active"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_res_country_ward" model="ir.actions.act_window">
+            <field name="name">Wards</field>
+            <field name="res_model">res.country.ward</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+    </data>
+</odoo>

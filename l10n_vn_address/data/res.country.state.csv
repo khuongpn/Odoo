@@ -1,0 +1,64 @@
+id,country_id:id,name,code,level_id:id
+state_vn_01,base.vn,Thành phố Hà Nội,01,vn_tptu
+state_vn_02,base.vn,Tỉnh Hà Giang,02,vn_tinh
+state_vn_04,base.vn,Tỉnh Cao Bằng,04,vn_tinh
+state_vn_06,base.vn,Tỉnh Bắc Kạn,06,vn_tinh
+state_vn_08,base.vn,Tỉnh Tuyên Quang,08,vn_tinh
+state_vn_10,base.vn,Tỉnh Lào Cai,10,vn_tinh
+state_vn_11,base.vn,Tỉnh Điện Biên,11,vn_tinh
+state_vn_12,base.vn,Tỉnh Lai Châu,12,vn_tinh
+state_vn_14,base.vn,Tỉnh Sơn La,14,vn_tinh
+state_vn_15,base.vn,Tỉnh Yên Bái,15,vn_tinh
+state_vn_17,base.vn,Tỉnh Hoà Bình,17,vn_tinh
+state_vn_19,base.vn,Tỉnh Thái Nguyên,19,vn_tinh
+state_vn_20,base.vn,Tỉnh Lạng Sơn,20,vn_tinh
+state_vn_22,base.vn,Tỉnh Quảng Ninh,22,vn_tinh
+state_vn_24,base.vn,Tỉnh Bắc Giang,24,vn_tinh
+state_vn_25,base.vn,Tỉnh Phú Thọ,25,vn_tinh
+state_vn_26,base.vn,Tỉnh Vĩnh Phúc,26,vn_tinh
+state_vn_27,base.vn,Tỉnh Bắc Ninh,27,vn_tinh
+state_vn_30,base.vn,Tỉnh Hải Dương,30,vn_tinh
+state_vn_31,base.vn,Thành phố Hải Phòng,31,vn_tptu
+state_vn_33,base.vn,Tỉnh Hưng Yên,33,vn_tinh
+state_vn_34,base.vn,Tỉnh Thái Bình,34,vn_tinh
+state_vn_35,base.vn,Tỉnh Hà Nam,35,vn_tinh
+state_vn_36,base.vn,Tỉnh Nam Định,36,vn_tinh
+state_vn_37,base.vn,Tỉnh Ninh Bình,37,vn_tinh
+state_vn_38,base.vn,Tỉnh Thanh Hóa,38,vn_tinh
+state_vn_40,base.vn,Tỉnh Nghệ An,40,vn_tinh
+state_vn_42,base.vn,Tỉnh Hà Tĩnh,42,vn_tinh
+state_vn_44,base.vn,Tỉnh Quảng Bình,44,vn_tinh
+state_vn_45,base.vn,Tỉnh Quảng Trị,45,vn_tinh
+state_vn_46,base.vn,Tỉnh Thừa Thiên Huế,46,vn_tinh
+state_vn_48,base.vn,Thành phố Đà Nẵng,48,vn_tptu
+state_vn_49,base.vn,Tỉnh Quảng Nam,49,vn_tinh
+state_vn_51,base.vn,Tỉnh Quảng Ngãi,51,vn_tinh
+state_vn_52,base.vn,Tỉnh Bình Định,52,vn_tinh
+state_vn_54,base.vn,Tỉnh Phú Yên,54,vn_tinh
+state_vn_56,base.vn,Tỉnh Khánh Hòa,56,vn_tinh
+state_vn_58,base.vn,Tỉnh Ninh Thuận,58,vn_tinh
+state_vn_60,base.vn,Tỉnh Bình Thuận,60,vn_tinh
+state_vn_62,base.vn,Tỉnh Kon Tum,62,vn_tinh
+state_vn_64,base.vn,Tỉnh Gia Lai,64,vn_tinh
+state_vn_66,base.vn,Tỉnh Đắk Lắk,66,vn_tinh
+state_vn_67,base.vn,Tỉnh Đắk Nông,67,vn_tinh
+state_vn_68,base.vn,Tỉnh Lâm Đồng,68,vn_tinh
+state_vn_70,base.vn,Tỉnh Bình Phước,70,vn_tinh
+state_vn_72,base.vn,Tỉnh Tây Ninh,72,vn_tinh
+state_vn_74,base.vn,Tỉnh Bình Dương,74,vn_tinh
+state_vn_75,base.vn,Tỉnh Đồng Nai,75,vn_tinh
+state_vn_77,base.vn,Tỉnh Bà Rịa - Vũng Tàu,77,vn_tinh
+state_vn_79,base.vn,Thành phố Hồ Chí Minh,79,vn_tptu
+state_vn_80,base.vn,Tỉnh Long An,80,vn_tinh
+state_vn_82,base.vn,Tỉnh Tiền Giang,82,vn_tinh
+state_vn_83,base.vn,Tỉnh Bến Tre,83,vn_tinh
+state_vn_84,base.vn,Tỉnh Trà Vinh,84,vn_tinh
+state_vn_86,base.vn,Tỉnh Vĩnh Long,86,vn_tinh
+state_vn_87,base.vn,Tỉnh Đồng Tháp,87,vn_tinh
+state_vn_89,base.vn,Tỉnh An Giang,89,vn_tinh
+state_vn_91,base.vn,Tỉnh Kiên Giang,91,vn_tinh
+state_vn_92,base.vn,Thành phố Cần Thơ,92,vn_tptu
+state_vn_93,base.vn,Tỉnh Hậu Giang,93,vn_tinh
+state_vn_94,base.vn,Tỉnh Sóc Trăng,94,vn_tinh
+state_vn_95,base.vn,Tỉnh Bạc Liêu,95,vn_tinh
+state_vn_96,base.vn,Tỉnh Cà Mau,96,vn_tinh

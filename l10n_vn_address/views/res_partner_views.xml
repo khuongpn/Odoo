@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- Open partner address -->
+        <record id="res_view_partner_address_form_inherit" model="ir.ui.view">
+            <field name="name">res.view.partner.address.form.inherit</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_address_form"/>
+            <field name="arch" type="xml">
+                <field name="city" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </field>
+                <field name="zip" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </field>
+                <field name="street2" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </field>
+                <field name="state_id" position="after">
+                    <field name="res_district_id"
+                           placeholder="District"
+                           domain="[('state_id', '=', state_id)]"
+                           required="1"
+                           options='{"no_open": True}'
+                           attrs="{'readonly': [('type', '=', 'contact'),('parent_id', '!=', False)]}"/>
+                    <field name="res_ward_id"
+                           placeholder="Ward"
+                           options='{"no_open": True}'
+                           domain="[('district_id', '=', res_district_id)]"
+                           attrs="{'readonly': [('type', '=', 'contact'),('parent_id', '!=', False)]}"/>
+                </field>
+                <field name="state_id" position="attributes">
+                    <attribute name="class"></attribute>
+                    <attribute name="required">1</attribute>
+                    <attribute name="domain">[('country_id', '=', country_id)]</attribute>
+                </field>
+                <field name="country_id" position="attributes">
+                    <attribute name="required">1</attribute>
+                </field>
+            </field>
+        </record>
+
+        <record id="res_view_res_partner_form_inherit" model="ir.ui.view">
+            <field name="name">res.view.res.partner.form.inherit</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <field name="city" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </field>
+                <field name="zip" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </field>
+                <field name="street2" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </field>
+                <field name="phone" position="attributes">
+                    <attribute name="required">1</attribute>
+                </field>
+                <field name="mobile" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </field>
+                <notebook position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </notebook>
+                <field name="state_id" position="after">
+                    <field name="res_district_id"
+                           placeholder="District"
+                           domain="[('state_id', '=', state_id)]"
+                           required="1"
+                           options='{"no_open": True}'
+                           attrs="{'readonly': [('type', '=', 'contact'),('parent_id', '!=', False)]}"/>
+                    <field name="res_ward_id"
+                           placeholder="Ward"
+                           options='{"no_open": True}'
+                           domain="[('district_id', '=', res_district_id)]"
+                           attrs="{'readonly': [('type', '=', 'contact'),('parent_id', '!=', False)]}"/>
+
+                </field>
+                <field name="state_id" position="attributes">
+                    <attribute name="class"></attribute>
+                    <attribute name="required">1</attribute>
+                    <attribute name="domain">[('country_id', '=', country_id)]</attribute>
+                </field>
+                <field name="country_id" position="attributes">
+                    <attribute name="required">1</attribute>
+                </field>
+            </field>
+        </record>
+
+    </data>
+</odoo>

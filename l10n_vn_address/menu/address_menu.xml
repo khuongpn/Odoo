@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <!-- Configuration > Contacts > Localization > Districts -->
+        <menuitem
+    	    name="Districts"
+            id="res_country_district_menu"
+            sequence="15"
+            parent="contacts.menu_localisation"
+            action="action_res_country_district"
+            />
+
+        <!-- Configuration > Contacts > Localization > Wards -->
+        <menuitem
+    	    name="Wards"
+            id="res_country_ward_menu"
+            sequence="20"
+            parent="contacts.menu_localisation"
+            action="action_res_country_ward"
+            />
+
+        <!-- Configuration > Contacts > Localization > Wards -->
+        <menuitem
+    	    name="Country Levels"
+            id="res_country_level_menu"
+            sequence="25"
+            parent="contacts.menu_localisation"
+            action="action_res_country_level"
+            />
+
+    </data>
+</openerp>
